@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class Elevator {
     public static void main(String[] args){
-        int lift=0, w,t; //w- where are you,t- which floor
+        int lift=0, w,t;  //w- where are you,t- which floor
         System.out.println("This is an 10 floor building which floor are you at: Lift is at '0' ");
         Scanner sc = new Scanner(System.in);
         w = sc.nextInt();
